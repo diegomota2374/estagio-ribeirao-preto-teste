@@ -55,13 +55,8 @@ Este projeto React é uma aplicação que demonstra várias funcionalidades, inc
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
+   git clone https://github.com/diegomota2374/estagio-ribeirao-preto-teste.git
 
-    Navegue até o diretório do projeto:
-
-    bash
-
-cd seu-repositorio
 
 Instale as dependências:
 
@@ -86,23 +81,18 @@ npm test
 Estrutura do Projeto
 
     src/: Contém os arquivos do código-fonte.
-        CalculateSoma.js: Componente para calcular a soma dos números inteiros.
-        Fibonacci.js: Componente para verificar números da sequência de Fibonacci.
-        SequenceCalculator.js: Componente para calcular próximos elementos de sequências.
-        StringAnalyzer.js: Componente para analisar strings e contar letras 'a'.
-        SwitchLampSimulator.js: Componente para simular interruptores e lâmpadas.
+        CalculateSoma/CalculateSoma.js: Componente para calcular a soma dos números inteiros.
+        Fibonacci/Fibonacci.js: Componente para verificar números da sequência de Fibonacci.
+        SequenceCalculator/SequenceCalculator.js: Componente para calcular próximos elementos de sequências.
+        StringAnalyzer/StringAnalyzer.js: Componente para analisar strings e contar letras 'a'.
+        SwitchLampSimulator/SwitchLampSimulator.js: Componente para simular interruptores e lâmpadas.
         App.js: Componente principal que integra todas as funcionalidades.
         .scss: Arquivos de estilo SCSS para cada componente.
-        __tests__/: Contém os testes Jest para cada componente.
+        .test.js: Arquivos de teste Jest para cada componente.
+        __tests__/: Contém teste Jest.
 
     public/: Contém arquivos estáticos, incluindo index.html.
 
 Contribuições
 
-Contribuições são bem-vindas! Para contribuir, envie um pull request ou abra uma issue para discutir melhorias.
-Licença
-
-Este projeto é licenciado sob a MIT License.
-Contato
-
-Para dúvidas ou sugestões, entre em contato com seu-email@dominio.com.
+Para dúvidas ou sugestões, entre em contato com diegomota2374@gmail.com.
