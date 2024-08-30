@@ -1,0 +1,125 @@
+.switch-lamp-simulator {
+  font-family: 'Roboto', sans-serif;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.switch-lamp-simulator h1 {
+  font-size: 1.5em;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.switch-lamp-simulator h2 {
+  font-size: 1.2em;
+  color: #555;
+  margin-bottom: 8px;
+}
+
+.switch-lamp-simulator p {
+  font-size: 1.1em;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.switch-lamp-simulator button {
+  width: 100px;
+  height: 50px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 1.2em; /* Tamanho do texto dos botões */
+  margin: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative; /* Necessário para o posicionamento do ::before */
+}
+
+.switch-lamp-simulator button::before {
+  content: attr(data-number); /* Adiciona o número como conteúdo */
+  font-size: 1.2em; /* Tamanho do texto dos botões */
+  display: block;
+}
+
+.switch-lamp-simulator button span {
+  display: none; /* Oculta o texto no botão em telas menores */
+}
+
+.switch-lamp-simulator button:hover {
+  background-color: #0056b3;
+}
+
+.switch-lamp-simulator div {
+  margin-bottom: 15px;
+}
+
+.switch-lamp-simulator .summary {
+  font-size: 1em;
+  color: #666;
+  margin-top: 20px;
+  padding: 10px;
+  border-top: 1px solid #ddd;
+}
+
+@media (max-width: 480px) {
+  .switch-lamp-simulator {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+  padding: 5px;
+  }
+
+  .switch-lamp-simulator h1 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+
+  .switch-lamp-simulator h2 {
+    font-size: 1.1em;
+    margin: 0px;
+  }
+
+  .switch-lamp-simulator p {
+    font-size: 1.0em;
+    margin-bottom: 5px;
+  }
+
+   .button-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .switch-lamp-simulator div {
+    margin-bottom: 5px;
+  }
+
+  .switch-lamp-simulator button {
+    width: 40px; /* Ajusta o tamanho dos botões para telas menores */
+    height: 30px;
+    font-size: 1em; /* Ajusta o tamanho do texto dos botões */
+  }
+
+  .switch-lamp-simulator button::before {
+    display: block; /* Exibe o número como conteúdo */
+  }
+
+  .switch-lamp-simulator button span {
+    display: none; /* Certifique-se de que o texto é ocultado */
+  }
+
+  .switch-lamp-simulator .summary {
+    font-size: 0.7em;
+    margin-top: 0px;
+    padding: 5px;
+  }
+}

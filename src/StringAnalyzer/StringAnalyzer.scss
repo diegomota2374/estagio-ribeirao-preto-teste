@@ -1,0 +1,59 @@
+// StringAnalyzer.scss
+
+.string-analyzer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+  
+    .string-analyzer-card {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      max-width: 500px;
+      width: 100%;
+      text-align: center;
+  
+      @media (max-width: 768px) {
+        padding: 15px;
+      }
+    }
+  
+    .string-analyzer-title {
+      font-size: 1.5rem;
+      margin-bottom: 20px;
+      color: #333;
+    }
+  
+    .string-analyzer-input {
+      width: calc(100% - 22px); /* Adjusts for padding and border */
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 1rem;
+    }
+  
+    .string-analyzer-button {
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      background-color: #007bff;
+      color: #fff;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+  
+      &:hover {
+        background-color: #0056b3;
+      }
+    }
+  
+    .string-analyzer-message {
+      margin-top: 20px;
+      font-size: 1rem;
+      color: #555;
+    }
+  }
+  

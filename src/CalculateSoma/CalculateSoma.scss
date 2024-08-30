@@ -1,0 +1,29 @@
+// CalculateSoma.scss
+
+.calculate-soma-container {
+    .card {
+      margin: 20px auto;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      background-color: #fff;
+      max-width: 600px;
+      text-align: center;
+  
+      @media (max-width: 768px) {
+        padding: 15px;
+      }
+    }
+  
+    .calculate-soma-title {
+      font-size: 1.5rem;
+      margin-bottom: 15px;
+      color: #333;
+    }
+  
+    .calculate-soma-result {
+      font-size: 1.2rem;
+      color: #555;
+    }
+  }
+  
