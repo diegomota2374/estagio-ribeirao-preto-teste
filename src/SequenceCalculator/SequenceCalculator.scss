@@ -14,6 +14,19 @@
         padding: 15px;
       }
     }
+    .elements-container {
+      font-size: 16px;
+      line-height: 1.5;
+      padding: 10px;
+      background-color: #f9f9f9;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      max-width: 600px;
+      margin: 0 auto;
+      padding-left: 150px;
+      text-align: left;
+    }
+    
   
     .sequence-calculator-title {
       font-size: 1.5rem;
@@ -27,10 +40,29 @@
       margin: 10px 0;
     }
     @media (max-width: 480px) {
+      .sequence-calculator-card {
+        margin: 5px auto;
+        padding: 5px;   
+      }
+
+      .sequence-calculator-title {
+        font-size: 1.2rem;
+        margin-bottom: 5px;
+      }
+
       p {
         font-size: 1.0rem;
-     
       }
+
+      .elements-container {
+        padding-left: 60px;
+      }
+
+      .elements-container {
+        font-size: 10px;
+        line-height: 1.5;
+      }
+      
     }
   }
   

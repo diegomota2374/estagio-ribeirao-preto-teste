@@ -25,5 +25,16 @@
       font-size: 1.2rem;
       color: #555;
     }
+
+    .code-container {
+      max-width: 80vw;
+      text-align: center;
+      font-size: 12px;
+      background-color: #f4f4f4;
+      border: 1px solid #ddd;
+      padding: 10px;
+      border-radius: 4px;
+      white-space: pre; /* Mantém a formatação do código */
+  }
   }
   

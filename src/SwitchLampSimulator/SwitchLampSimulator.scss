@@ -7,6 +7,11 @@
   background-color: #f9f9f9;
   text-align: center;
 }
+.button-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .switch-lamp-simulator h1 {
   font-size: 1.5em;
@@ -76,7 +81,7 @@
     justify-content: center;
     align-items: center;
     margin: 5px;
-  padding: 5px;
+    padding: 5px;
   }
 
   .switch-lamp-simulator h1 {
@@ -92,11 +97,6 @@
   .switch-lamp-simulator p {
     font-size: 1.0em;
     margin-bottom: 5px;
-  }
-
-   .button-container {
-    display: flex;
-    flex-direction: row;
   }
 
   .switch-lamp-simulator div {

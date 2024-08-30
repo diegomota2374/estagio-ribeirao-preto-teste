@@ -27,6 +27,16 @@ const CalculateSoma = () => {
   return (
     <div className="calculate-soma-container">
       <h1 className="calculate-soma-title">Resultado do Cálculo</h1>
+      <pre className="code-container">
+        <code>
+          {`int INDICE = 12, SOMA = 0, K = 1;
+            enquanto K < ; INDICE faça {
+                K = K + 1;
+                SOMA = SOMA + K;
+            }
+            imprimir(SOMA);`}
+        </code>
+      </pre>
       <p className="calculate-soma-result">
         O valor da variável SOMA ao final do processamento é: {resultado}
       </p>
